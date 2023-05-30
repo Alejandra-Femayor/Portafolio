@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Encriptador De Texto</title>
+</head>
+
+<body>
+  <header>
+    <img src="Vector.png" alt="vector" class="vector">
+  </header>
+
+  <main>
+    <section>
+      <div class="text-area-container">
+        <textarea id="texto-encriptado" cols="30" rows="10" placeholder="Ingrese texto a encriptar"></textarea>
+        <textarea id="mensaje" cols="20" rows="10" readonly></textarea>
+        <p id="mensaje-vacio" class="texto-abajo-imagen">Ningún mensaje fue encontrado</p>
+      </div>
+
+      <div class="informacion-container">
+        <h6 class="informacion">¡Solo letras minúsculas y sin acentos!</h6>
+      </div>
+
+      <div class="botones">
+        <button class="btn-encriptar" onclick="encriptar()">Encriptar</button>
+        <button class="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        <button class="btn-copiar" onclick="copiar()">Copiar</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Desarrollado por: Alejandra Femayor
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
