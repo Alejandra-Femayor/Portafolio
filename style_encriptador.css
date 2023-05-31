@@ -529,3 +529,18 @@ flex-grow: 0;
   order: 1;
   flex-grow: 0;
 }
+
+@media screen and (max-width:480px ) {
+  .titulo{
+      text-align: center;
+  }
+  nav{
+      position: static;
+  }
+
+  .botones, .contenido{
+      width: auto;
+  }
+  
+}
+
